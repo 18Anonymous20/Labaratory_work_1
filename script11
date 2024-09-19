@@ -1,0 +1,12 @@
+#!/bin/bash
+chmod +x script11.sh
+date
+hostname
+who
+pwd
+
+exec 1>res1
+date
+hostname
+who
+pwd
